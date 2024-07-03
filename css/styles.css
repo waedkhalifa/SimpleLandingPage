@@ -132,8 +132,20 @@ section {
         display: block;
         text-align: center;
     }
+
     h1 {
         margin-top: 270px;
+    }
+
+    .navbar__menu .active-item {
+        background-color: #333;
+        color:#fff;
+    }
+
+    .navbar__menu .menu__link:hover {
+        background: #333;
+        color: #fff;
+        transition: ease 0.3s all;
     }
 }
 
@@ -210,7 +222,7 @@ section:nth-of-type(3n + 1) .landing__container::after {
 
 /*this class to make active section in the Navbar highlighted.*/
 .navbar__menu .active-item {
-    background-color: #333;
+    background-color: #cc1;
     color:#fff;
 }
 
